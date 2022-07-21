@@ -1,0 +1,160 @@
+{
+  "user": [
+    {
+      "email": "bl@gmail.com",
+      "password": "ntblinh",
+      "name": "Bảo Linh",
+      "avatar": "https://haycafe.vn/wp-content/uploads/2022/02/Anh-gai-xinh-Viet-Nam.jpg",
+      "id": 1
+    },
+    {
+      "email": "ns@gmail.com",
+      "password": "nns",
+      "name": "Ngọc ánh",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjA9bVx8FgO3kL1JPrOt3ta5dnWK6oecxTOQ&usqp=CAU",
+      "id": 2
+    },
+    {
+      "email": "maks@gmail.com",
+      "password": "123",
+      "name": "Thị Lan",
+      "avatar": "data:image/jpeg;base64,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",
+      "id": 3
+    },
+    {
+      "email": "non@gmail.com",
+      "password": "non",
+      "name": "non",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl36--VRVflpNnYoYgnED5j1sF1xaoSUpcmQ&usqp=CAU",
+      "id": 4
+    }
+  ],
+  "message": [
+    {
+      "content": "chào cậu ",
+      "user_id": 2,
+      "time": "22-11-2022",
+      "id": 2
+    },
+    {
+      "content": "tớ cũng vậy",
+      "user_id": 1,
+      "time": "22-11-2022",
+      "id": 5
+    },
+    {
+      "content": "chào abc nhá",
+      "user_id": 1,
+      "time": "22-11-2022",
+      "id": 7
+    },
+    {
+      "content": "hi",
+      "user_id": 4,
+      "time": "22-11-2022",
+      "id": 8
+    },
+    {
+      "content": "hello",
+      "user_id": 3,
+      "time": "22-11-2022",
+      "id": 9
+    },
+    {
+      "content": "abc",
+      "user_id": 3,
+      "time": "22-11-2022",
+      "id": 10
+    },
+    {
+      "content": "chào",
+      "user_id": 1,
+      "time": "22-11-2022",
+      "id": 12
+    },
+    {
+      "content": "abc",
+      "user_id": 3,
+      "time": "22-11-2022",
+      "id": 13
+    },
+    {
+      "content": "Sơn Nhớ Linh Nhiều",
+      "user_id": 1,
+      "time": "16:57:32 - 20/6/2022",
+      "id": 21
+    },
+    {
+      "icon": "https://static.xx.fbcdn.net/images/emoji.php/v9/e7e/1.5/32/PACMAN.png",
+      "user_id": 1,
+      "time": "17:57:32 - 20/6/2022",
+      "id": 22
+    },
+    {
+      "content": "abc",
+      "user_id": 3,
+      "time": "17:26:18 - 20/6/2022",
+      "id": 23
+    },
+    {
+      "icon": "https://static.xx.fbcdn.net/images/emoji.php/v9/t93/1.5/30/1f60d.png",
+      "user_id": 3,
+      "time": "22:57:56 - 20/6/2022",
+      "id": 25
+    },
+    {
+      "icon": "https://static.xx.fbcdn.net/images/emoji.php/v9/te1/1.5/30/1f921.png",
+      "user_id": 3,
+      "time": "23:3:10 - 20/6/2022",
+      "id": 26
+    },
+    {
+      "icon": "https://static.xx.fbcdn.net/images/emoji.php/v9/tbd/1.5/30/1f631.png",
+      "user_id": 3,
+      "time": "23:6:54 - 20/6/2022",
+      "id": 27
+    },
+    {
+      "icon": "https://static.xx.fbcdn.net/images/emoji.php/v9/t2/1.5/30/1f614.png",
+      "user_id": 3,
+      "time": "23:7:26 - 20/6/2022",
+      "id": 28
+    },
+    {
+      "icon": "https://static.xx.fbcdn.net/images/emoji.php/v9/t7f/1.5/30/1f974.png",
+      "user_id": 4,
+      "time": "23:8:11 - 20/6/2022",
+      "id": 29
+    },
+    {
+      "icon": "https://static.xx.fbcdn.net/images/emoji.php/v9/te7/1.5/30/1f635_200d_1f4ab.png",
+      "user_id": 2,
+      "time": "23:22:45 - 20/6/2022",
+      "id": 30
+    },
+    {
+      "icon": "https://static.xx.fbcdn.net/images/emoji.php/v9/t93/1.5/30/1f60d.png",
+      "user_id": 3,
+      "time": "23:23:54 - 20/6/2022",
+      "id": 31
+    },
+    {
+      "icon": "https://static.xx.fbcdn.net/images/emoji.php/v9/t14/1.5/30/1f60e.png",
+      "user_id": 4,
+      "time": "23:33:16 - 20/6/2022",
+      "id": 32
+    },
+    {
+      "content": "good night",
+      "user_id": 2,
+      "time": "23:38:34 - 20/6/2022",
+      "id": 33
+    },
+    {
+      "icon": "https://static.xx.fbcdn.net/images/emoji.php/v9/t4e/1.5/30/1f62a.png",
+      "user_id": 2,
+      "time": "23:41:37 - 20/6/2022",
+      "id": 34
+    }
+  ]
+}

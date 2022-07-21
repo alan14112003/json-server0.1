@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: #288ad6;
+    text-decoration: none;
+}
+:root {
+    --text-color: #E4E6EB;
+    --text-background: #3E4042;
+    --text-baclground-me: rgb(0, 132, 255);
+    --text-color-me: #fff;
+    --size-load-item: 12px
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender;
+}
+.pre-loader {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+.loader-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.loader-item {
+    width: var(--size-load-item);
+    height: var(--size-load-item);
+    background-color: #333;
+    border-radius: 50%;
+    margin: 0 6px;
+    animation: load-item 1s linear infinite;
+}
+
+.loader-item:nth-child(2) {
+    animation-delay: .25s;
+}
+.loader-item:last-child {
+    animation-delay: .5s;
+}
+
+@keyframes load-item {
+    0% {
+        transform: translateY(-50%);
+    }
+    25% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50%);
+    }
+    75% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+.left {
+    width: 30%;
+    height: 100vh;
+    float: left;
+    padding: 12px 24px;
+    background-color: #ddd;
+}
+.left--me {
+    display: block;
+}
+.boxAvatar {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.boxAvatar .avatarMe {
+    width: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.left--me a {
+    margin: 12px;
+    cursor: pointer;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+}
+.left--login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.left--login .title {
+    margin-bottom: 20vh;
+}
+.left--login input {
+    margin: 12px auto;
+    padding: 8px 12px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid gainsboro;
+    text-align: center;
+}
+.left--login button {
+    margin: 12px auto;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color: #fff;
+} 
+.left--login button:hover {
+    opacity: .8;
+}
+.right {
+    width: 70%;
+}
+.right--close {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right--open {
+    background-color: #ccc;
+    padding: 0px 12px;
+    display: inline-block;
+}
+.boxEdit {
+    height: 10vh;
+}
+.boxMessenger {
+    height: 70vh;
+    overflow-y: auto;
+}
+.boxMessenger li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+.boxMessenger li .date {
+    margin: auto 24px;
+}
+.boxMessenger::-webkit-scrollbar {
+    width: 1px;
+}
+.boxMessenger .isMe {
+    justify-content: end;
+    flex-direction: row-reverse;
+}
+.boxMessenger .isMe .message__content {
+    flex-direction: row-reverse;
+}
+.boxMessenger .isMe .message__content img {
+    margin-left: 12px;
+    margin-right: 0;
+}
+.boxMessenger .isMe .message__content .message__content__name {
+    right: 0;
+}
+.boxMessenger .isMe .message__content .message__content__para {
+    background-color: var(--text-baclground-me);
+    color: var(--text-color-me);
+}
+.message__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    margin-top: 12px;
+}
+.message__content div {
+    position: relative;
+}
+.message__content img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.message__content .message__content__icon {
+    background-color: transparent;
+    border-radius: 0;
+}
+.message__content .delete {
+    margin-right: 8px;
+    padding: 4px 8px;
+    color: red;
+    background-color: springgreen;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: none;
+}
+.message__content:hover .delete {
+    display: block;
+}
+.message__content .message__content__name {
+    font-size: .8rem;
+    position: absolute;
+    top: -18px;
+}
+.message__content .message__content__para {
+    color: var(--text-color);
+    padding: 8px 12px;
+    background-color: var(--text-background);
+    border-radius: 10px;
+}
+.boxChat {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.boxChat .iconBtn {
+    background-color: #FF9831;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 36px;
+    color: #fff;
+    cursor: pointer;
+}
+.chatForm {
+    display: flex;
+    width: 70%;
+}
+.boxChat input.message {
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    outline: 1px solid gainsboro;
+}
+.boxChat button.seen {
+    background-color: deepskyblue;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 36px;
+    color: #fff;
+    cursor: pointer;
+}
+.listIcon {
+    display: block;
+    position: absolute;
+    left: 9%;
+    top: -100%;
+    width: 200px;
+    padding: 12px 12px;
+    border-radius: 10px;
+    background-color: #333;
+    box-shadow: 0 2px 12px rgb(0 0 0 / 12%);
+    transform: translate(-100%);
+    opacity: 0;
+    z-index: -100;
+    transition: all .3s ease;
+}
+.openIcon {
+    transform: translate(0);
+    opacity: 1;
+    z-index: 1;
+}
+.listIcon::before {
+    content: '';
+    background-color: #333;
+    position: absolute;
+    left: 12px;
+    bottom: -8px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+}
+.listIcon__icons {
+    display: inline-block;
+    height: 150px;
+    overflow-y: auto;
+}
+.listIcon__icons::-webkit-scrollbar {
+    width: 1px;
+}
+.icons__icon {
+    float: left;
+    width: 14%;
+    margin: 3%;
+    cursor: pointer;
+}
+.icons__icon img {
+    width: 100%;
+}
